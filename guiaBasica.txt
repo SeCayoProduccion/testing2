@@ -1,0 +1,51 @@
+Esta es una pequeña guía para poder recordar los comandos básicos en linux referentes a git!!
+
+⠀⠀⠀⠀⢀⣤⠤⣄⠀⠀⠀⠀⣠⠤⣄⠀⠀⠀
+⠀⠀⠀⢠⠞⠀⠀⠈⢷⠀⠀⡜⠃⠀⠈⢳⠀⠀
+⠀⠀⠀⣾⠀⠀⠀⠀⠘⡇⢰⠅⠀⠀⠀⠸⡇⠀
+⠀⠀⠀⣿⠀⠀⠀⠀⠀⡇⣾⠀⠀⠀⠀⢸⠃⠀
+⠀⠀⠀⢹⡀⠀⠀⠀⠀⡇⣿⠀⠀⠀⠀⡾⠀⠀
+⠀⠀⠀⠸⡇⠀⠀⠀⠀⠷⠿⠀⠀⠀⢰⠇⠀⠀
+⠀⢀⡴⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢶⡀⠀
+⢰⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄
+⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣷
+⢹⠀⠀⠀⢰⡆⠀⠀⠀⠀⠀⠀⢀⣄⠀⠀⠀⡟
+⠈⢧⡀⠀⠀⠀⠀⠀⢄⡀⣀⠀⠀⠁⠀⠀⣸⠃
+⠀⠈⠻⢦⣀⠀⠀⠀⠚⠙⠂⠀⠀⠀⣀⡴⠋⠀
+⠀⠀⠀⠀⠈⠉⠓⠒⠲⠶⠶⠒⠒⠋⠁⠀⠀⠀
+
+cd = cambia directorio
+ls = muestra lo que hay en donde estés parado
+mkdir = crea el directorio
+
+¿Cómo clonar un proyecto?
+Estando en git..
+$ git clone urlDelProytecto
+
+
+¿Cómo modificar un archivo? 
+Estando en el proyecto..
+$ nano nombreDelArchivo
+ctrl x
+yes
+enter
+
+
+¿Cómo subir un archivo/hacer push?
+$ git add nombreDelArchivo
+$ git commit -m 'Descripción'
+$ git push
+
+
+¿Cómo hacer un pull?
+$ git pull
+
+Si te aparece el error de divergent branchs hay que hacer esto..
+$ git pull --no-rebase
+
+¿Cómo cambiar el usuario que está configurado en la pc?
+git config user.name 'Tu nombre'
+git config user.email 'xxxx@xxx.xxx'
+
+¿Cómo cambiar el nombre a un archivo?
+$ mv nombreArhivo nombreArchivo.txt
