@@ -18,6 +18,17 @@ cd = cambia directorio
 ls = muestra lo que hay en donde estés parado
 mkdir = crea el directorio
 
+¿Cómo configurar mi usuario de manera local dentro de mi repositorio?
+Tienes que hacer esto en cada repositorio nuevo..
+
+git config user.name "xxx"
+git config user.main "x@xx"
+
+Para comprobar que esté hecho de manera local es esto..
+git config user.name
+git config user.mail
+Te deben regresar el usuario y mail que están configurados, si no regresa algo significa que no hay ninguno establecido
+
 ¿Cómo clonar un proyecto?
 Estando en git..
 $ git clone urlDelProytecto
